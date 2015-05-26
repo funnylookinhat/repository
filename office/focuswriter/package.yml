@@ -8,6 +8,8 @@ license : GPL-3.0
 summary : FocusWriter
 builddeps :
     - qt5-devel
+    - glesv2
+    - hunspell
 description : FocusWriter is a simple, distraction-free word processor.
 setup : |
     qmake PREFIX=$installdir/usr

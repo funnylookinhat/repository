@@ -9,7 +9,7 @@ summary : FocusWriter
 builddeps :
     - qt5-devel
     - pkgconfig(glesv2)
-    - hunspell
+    - pkgconfig(hunspell)
 description : FocusWriter is a simple, distraction-free word processor.
 setup : |
     qmake PREFIX=$installdir/usr
